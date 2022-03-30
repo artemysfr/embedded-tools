@@ -13,7 +13,7 @@ To build (tested with Buildroot cross-toolchain):
 You will get an executable named *xy-mt02* which you can copy and run on your embedded system.
 
 ## gpio\_wait
-Small prog to wait (poll()) a sysfs configured gpio for state changes. Don't forget to configure /sys/class/gpio/gpioxx/edge before launching it
+Small prog to wait (poll()) a sysfs configured GPIO for state changes (interrupts). Don't forget to configure */sys/class/gpio/gpioxx/edge* before launching it
 To build it (tested with Buildroot cross-toolchain):
 
     mkdir build
